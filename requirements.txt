@@ -1,8 +1,8 @@
 streamlit
 groq
 feedparser
-chromadb==0.5.23
-numpy==1.26.4
 sentence-transformers
+numpy==1.26.4
 plotly
 python-dotenv
+pickle5

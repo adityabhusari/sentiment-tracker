@@ -18,7 +18,7 @@ st.set_page_config(
 )
 
 st.title("📈 Indian Market Sentiment Tracker")
-st.caption("Powered by Moneycontrol · ET Markets · Groq Llama 3.3 · ChromaDB")
+st.caption("Powered by Moneycontrol · ET Markets · Groq Llama 3.3 · sentence-transformers")
 
 # ---------------------------------------------------------------------------
 # Sidebar — API key + refresh
@@ -132,7 +132,7 @@ with tab2:
 
     if query:
         with st.spinner("Searching…"):
-            results = vs.search(query, n=n_results)
+            results = vs.search(query, n_results=n_results)
 
         if not results:
             st.info("No results found. Fetch some articles first.")
