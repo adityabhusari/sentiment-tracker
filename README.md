@@ -1,0 +1,1 @@
+Indian Stock Market Sentiment Tracker — pulls live news from Moneycontrol and ET Markets, analyzes sentiment using Groq's Llama 3.3, stores results in ChromaDB, and displays a Streamlit dashboard with today's pulse, semantic search history, and trend charts.
